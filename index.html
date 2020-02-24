@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>avast comparison table</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap&subset=latin-ext"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css" />
+    <script type="text/javascript" src="assets/slick/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="assets/slick/jquery-migrate-1.2.1.min.js"></script>
+</head>
+
+<body>
+    <main>
+        <h2 class="text-center mobile">Your protection,<br>your way</h2>
+        <div class="carousel-container">
+            <div class="carousel-prev">prev</div> 
+            <div class="p-carousel"> 
+                <div class="p-carousel-item">
+                    <div class="p-carousel-item-content">
+                        <img src="assets/icons/free.svg" alt="free" class="product-icon">
+                        <strong>Free Antivirus</strong> 
+                        <p class="text-size-4 text-muted">&nbsp;</p>  
+                        <p class="price"><b>Free</b></p>
+                        <a href="#" class="btn btn-primary btn-download">FREE</a> 
+                        <span>free forever</span>
+                    </div>
+                </div>
+                <div class="p-carousel-item">
+                    <div class="p-carousel-item-content recommended">
+                        <img src="assets/icons/premium.svg" alt="premium" class="product-icon">
+                        <strong>Premium Security</strong> 
+                        <p class="text-size-4 text-muted">Single-Device</p>  
+                        <p class="price"><span class="sup">$</span><b>69.99</b><span class="sub text-size-4">/year</span></p>
+                        <a href="#" class="btn btn-primary btn-download">BUY NOW</a> 
+                        <a href="#" class="link text-bold text-muted text-size-4">TRY FOR 30 DAYS</a>
+                    </div>
+                </div>
+                <div class="p-carousel-item">
+                    <div class="p-carousel-item-content">
+                        <img src="assets/icons/premium.svg" alt="premium" class="product-icon">
+                        <strong>Premium Security</strong> 
+                        <p class="text-size-4 text-muted">Multi-Device</p>  
+                        <p class="price"><span class="sup">$</span><b>89.99</b><span class="sub text-size-4">/year</span></p>
+                        <a href="#" class="btn btn-primary btn-download">BUY NOW</a> 
+                        <a href="#" class="link text-bold text-muted text-size-4">TRY FOR 30 DAYS ON PC</a>
+                    </div>
+                </div>
+                <div class="p-carousel-item">
+                    <div class="p-carousel-item-content">
+                        <img src="assets/icons/ultimate.svg" alt="free" class="product-icon">
+                        <strong>Ultimate</strong> 
+                        <p class="text-size-4 text-muted">&nbsp;</p>  
+                        <p class="price"><span class="sup">$</span><b>99.99</b><span class="sub text-size-4">/year</span></p>
+                        <a href="#" class="btn btn-primary btn-download">BUY NOW</a> 
+                        <span>&nbsp;</span>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-next">next</div>
+        </div>
+
+        <div class="c-table" id="comparison_table">
+
+            <!-- sticky header start -->
+
+            <div class="sticky-header" id="sticky_header">
+
+                <div class="c-head-col c-head-text">
+                    <h2>Your protection, your&nbsp;way</h2>
+                </div>
+    
+                <div class="c-head-name">
+                    <img src="assets/icons/free.svg" alt="free" class="product-icon">
+                    <strong>Free Antivirus</strong>
+                </div>
+                <div class="c-head-name">
+                    <img src="assets/icons/premium.svg" alt="premium" class="product-icon">
+                    <strong>Premium Security</strong>
+                    <p class="text-size-4 text-muted">Single-Device</p>
+                </div>
+                <div class="c-head-name">
+                    <img src="assets/icons/premium.svg" alt="premium" class="product-icon">
+                    <strong>Premium Security</strong>
+                    <p class="text-size-4 text-muted">Multi-Device</p>
+                </div>
+                <div class="c-head-name">
+                    <img src="assets/icons/ultimate.svg" alt="ultimate" class="product-icon">
+                    <strong>Ultimate</strong>
+                </div>
+                
+                <div class="c-head-price">
+                    <p class="price"><b>Free</b></p>
+                    <a href="#" class="btn btn-primary btn-download">FREE</a>
+                </div>
+                <div class="c-head-price">
+                    <p class="price"><span class="sup">$</span><b>69.99</b><span class="sub text-size-4">/year</span></p>
+                    <a href="#" class="btn btn-primary btn-store">BUY NOW</a>
+                </div>
+                <div class="c-head-price">
+                    <p class="price"><span class="sup">$</span><b>89.99</b><span class="sub text-size-4">/year</span></p>
+                    <a href="#" class="btn btn-primary btn-store">BUY NOW</a>
+                </div>
+                <div class="c-head-price">
+                    <p class="price"><span class="sup">$</span><b>99.99</b><span class="sub text-size-4">/year</span></p>
+                    <a href="#" class="btn btn-primary btn-store">BUY NOW</a>
+                </div>
+
+            </div>
+        
+            <!-- sticky header end -->
+
+            <!-- table head start -->
+
+            <div class="c-head-col c-head-text">
+                <h2>Your<br>protection, your&nbsp;way</h2>
+            </div>
+
+            <div class="c-head-name">
+                <img src="assets/icons/free.svg" alt="free" class="product-icon">
+                <strong>Free Antivirus</strong>
+            </div>
+            <div class="c-head-name recommended" rec-text="recommended">
+                <img src="assets/icons/premium.svg" alt="premium" class="product-icon">
+                <strong>Premium Security</strong>
+                <p class="text-size-4 text-muted">Single-Device</p>
+            </div>
+            <div class="c-head-name">
+                <img src="assets/icons/premium.svg" alt="premium" class="product-icon">
+                <strong>Premium Security</strong>
+                <p class="text-size-4 text-muted">Multi-Device</p>
+            </div>
+            <div class="c-head-name">
+                <img src="assets/icons/ultimate.svg" alt="ultimate" class="product-icon">
+                <strong>Ultimate</strong>
+            </div>
+
+            <div class="c-head-img">
+                <img src="assets/icons/img@3x.png" alt="" class="product-img img-fluid" width="173">
+            </div>
+            <div class="c-head-img recommended">
+                <img src="assets/icons/img@3x.png" alt="" class="product-img img-fluid" width="173">
+                </div>
+            <div class="c-head-img">
+                <img src="assets/icons/img@3x.png" alt="" class="product-img img-fluid" width="173">
+                </div>
+            <div class="c-head-img">
+                <img src="assets/icons/img@3x.png" alt="" class="product-img img-fluid" width="173">
+                </div>
+            <div class="c-head-price">
+                <p class="price"><b>Free</b></p>
+            </div>
+
+            <div class="c-head-price recommended">
+                <p class="price"><span class="sup">$</span><b>69.99</b><span class="sub text-size-4">/year</span></p>
+                <span><a href="#" class="link text-bold text-muted text-size-4">LEARN MORE</a></span>
+            </div>
+            <div class="c-head-price">
+                <p class="price"><span class="sup">$</span><b>89.99</b><span class="sub text-size-4">/year</span></p>
+                <span><a href="#" class="link text-bold text-muted text-size-4">LEARN MORE</a></span>
+            </div>
+            <div class="c-head-price">
+                <p class="price"><span class="sup">$</span><b>99.99</b><span class="sub text-size-4">/year</span></p>
+                <span><a href="#" class="link text-bold text-muted text-size-4">LEARN MORE</a></span>
+            </div>
+
+            <!-- table head end -->
+
+            <!-- table body start -->
+
+            <div class="c-body-text">
+                <div class="c-body-text-container">
+                    <p class="c-body-text-h">Block viruses and other malware</p>
+                    <p class="c-body-text-detail">Detect viruses, ransomware, and other threats in real-time.</p>
+                </div>
+                <div class="tooltip-control">
+                    <p class="tooltip-content">Tooltip text shouldn't be longer then two lines, but sometimes it's
+                        unavoidable.</p>
+                </div>
+                
+            </div>
+            <div class="c-body-item col-yes">yes</div>
+            <div class="c-body-item recommended col-yes">yes</div>
+            <div class="c-body-item col-yes">yes</div>
+            <div class="c-body-item col-yes">yes</div>
+            <div class="c-body-text">
+                <div class="c-body-text-container">
+                    <p class="c-body-text-h">Scan for Wi-Fi security weaknesses</p>
+                    <p class="c-body-text-detail">Find intruders and security weaknesses in your network.</p>
+                </div>
+                <div class="tooltip-control">
+                    <p class="tooltip-content">Tooltip text shouldn't be longer then two lines, but sometimes it's
+                    unavoidable.</p>
+                </div>
+                
+            </div>
+            <div class="c-body-item col-yes">yes</div>
+            <div class="c-body-item recommended col-yes">yes</div>
+            <div class="c-body-item col-yes">yes</div>
+            <div class="c-body-item col-yes">yes</div>
+
+            <div class="c-body-text">
+                <div class="c-body-text-container">
+                    <p class="c-body-text-h">Secure your passwords</p>
+                    <p class="c-body-text-detail">Lock your passwords in our vault and log in to sites with one click.</p>
+                </div>
+                <div class="tooltip-control">
+                    <p class="tooltip-content">Tooltip text shouldn't be longer then two lines, but sometimes it's
+                    unavoidable.</p>
+                </div>
+                
+            </div>
+            <div class="c-body-item col-yes">yes</div>
+            <div class="c-body-item recommended col-yes">yes</div>
+            <div class="c-body-item col-yes">yes</div>
+            <div class="c-body-item col-yes">yes</div>
+
+            <div class="c-body-text">
+                <div class="c-body-text-container">
+                    <p class="c-body-text-h">Avoid fake sites for safer shopping</p>
+                    <p class="c-body-text-detail">Stop criminals from stealing your passwords and bank info.</p>
+                </div>
+                <div class="tooltip-control">
+                    <p class="tooltip-content">Tooltip text shouldn't be longer then two lines, but sometimes it's
+                    unavoidable.</p>
+                </div>
+                
+            </div>
+            <div class="c-body-item col-no">no</div>
+            <div class="c-body-item recommended col-yes">yes</div>
+            <div class="c-body-item col-yes">yes</div>
+            <div class="c-body-item col-yes">yes</div>
+
+            <div class="c-body-text">
+                <div class="c-body-text-container">
+                    <p class="c-body-text-h">Safely run suspicious apps</p>
+                    <p class="c-body-text-detail">Sandbox any app to test if it's safe before running it on your computer.
+                    </p>
+                </div>
+                <div class="tooltip-control">
+                    <p class="tooltip-content">Tooltip text shouldn't be longer then two lines, but sometimes it's
+                    unavoidable.</p>
+                </div>
+                
+            </div>
+            <div class="c-body-item col-no">no</div>
+            <div class="c-body-item recommended col-yes">yes</div>
+            <div class="c-body-item col-yes">yes</div>
+            <div class="c-body-item col-yes">yes</div>
+
+            <div class="c-body-text">
+                <div class="c-body-text-container">
+                    <p class="c-body-text-h">Lock out hackers with an advanced firewall</p>
+                    <p class="c-body-text-detail">Keep hackers from sneaking onto your PC and stealing your data.</p>
+                </div>
+                <div class="tooltip-control">
+                    <p class="tooltip-content">Tooltip text shouldn't be longer then two lines, but sometimes it's
+                    unavoidable.</p>
+                </div>
+                
+            </div>
+            <div class="c-body-item col-no">no</div>
+            <div class="c-body-item recommended col-yes">yes</div>
+            <div class="c-body-item col-yes">yes</div>
+            <div class="c-body-item col-yes">yes</div>
+
+            <div class="c-body-text">
+                <div class="c-body-text-container">
+                    <p class="c-body-text-h">Block annoying spam and phissing emails*</p>
+                    <p class="c-body-text-detail">Stop annoying junk mail for a safer, cleaner inbox.</p>
+                </div>
+                <div class="tooltip-control">
+                    <p class="tooltip-content">Tooltip text shouldn't be longer then two lines, but sometimes it's
+                    unavoidable.</p>
+                </div>
+                
+            </div>
+            <div class="c-body-item col-no">no</div>
+            <div class="c-body-item recommended col-yes">yes</div>
+            <div class="c-body-item col-yes">yes</div>
+            <div class="c-body-item col-yes">yes</div>
+
+            <div class="c-body-text">
+                <div class="c-body-text-container">
+                    <p class="c-body-text-h">Get an extra layer of ransomware security</p>
+                    <p class="c-body-text-detail">Protect personal photos and files from being encrypted by hackers.</p>
+                </div>
+                <div class="tooltip-control">
+                    <p class="tooltip-content">Tooltip text shouldn't be longer then two lines, but sometimes it's
+                    unavoidable.</p>
+                </div>
+                
+            </div>
+            <div class="c-body-item col-no">no</div>
+            <div class="c-body-item recommended col-yes">yes</div>
+            <div class="c-body-item col-yes">yes</div>
+            <div class="c-body-item col-yes">yes</div>
+
+            <div class="c-body-text">
+                <div class="c-body-text-container">
+                    <p class="c-body-text-h">Stop webcam spying</p>
+                    <p class="c-body-text-detail">Prevent strangers from watching you via your webcam.</p>
+                </div>
+                <div class="tooltip-control">
+                    <p class="tooltip-content">Tooltip text shouldn't be longer then two lines, but sometimes it's
+                    unavoidable.</p>
+                </div>
+                
+            </div>
+            <div class="c-body-item col-no">no</div>
+            <div class="c-body-item recommended col-yes">yes</div>
+            <div class="c-body-item col-yes">yes</div>
+            <div class="c-body-item col-yes">yes</div>
+
+            <div class="c-body-text">
+                <div class="c-body-text-container">
+                    <p class="c-body-text-h">Permanently shred sensitive files</p>
+                    <p class="c-body-text-detail">Securely delete files to ensure that no one recovers them.</p>
+                </div>
+                <div class="tooltip-control">
+                    <p class="tooltip-content">Tooltip text shouldn't be longer then two lines, but sometimes it's
+                    unavoidable.</p>
+                </div>
+                
+            </div>
+            <div class="c-body-item col-no">no</div>
+            <div class="c-body-item recommended col-yes">yes</div>
+            <div class="c-body-item col-yes">yes</div>
+            <div class="c-body-item col-yes">yes</div>
+
+            <div class="c-body-text">
+                <div class="c-body-text-container">
+                    <p class="c-body-text-h">Automatically update apps</p>
+                    <p class="c-body-text-detail">Reduce security risks by keeping your other apps up-to-date.</p>
+                </div>
+                <div class="tooltip-control">
+                    <p class="tooltip-content">Tooltip text shouldn't be longer then two lines, but sometimes it's
+                    unavoidable.</p>
+                </div>
+                
+            </div>
+            <div class="c-body-item col-no">no</div>
+            <div class="c-body-item recommended col-yes">yes</div>
+            <div class="c-body-item col-yes">yes</div>
+            <div class="c-body-item col-yes">yes</div>
+
+            <div class="c-body-text">
+                <div class="c-body-text-container">
+                    <p class="c-body-text-h">Install on all your devices</p>
+                    <p class="c-body-text-detail">Advanced protection for up to 10 devices (PC, Mac, Android and iOS).</p>
+                </div>
+                <div class="tooltip-control">
+                    <p class="tooltip-content">Tooltip text shouldn't be longer then two lines, but sometimes it's
+                    unavoidable.</p>
+                </div>
+                
+            </div>
+            <div class="c-body-item col-no">no</div>
+            <div class="c-body-item recommended col-no">no</div>
+            <div class="c-body-item col-yes">yes</div>
+            <div class="c-body-item col-no">no</div>
+
+            <div class="c-body-text"><img src="assets/icons/clean-up-premium.svg" alt="clean-up premium"
+                    class="c-body-text-badge">
+                <div class="c-body-text-container">
+                    <p class="c-body-text-h includes">Includes Avast Cleanup Premium</p>
+                    <p class="c-body-text-detail">Remove hidden junk, free up disk space, and speed up your computer.</p>
+                </div>
+                <div class="tooltip-control">
+                    <p class="tooltip-content">Tooltip text shouldn't be longer then two lines, but sometimes it's
+                    unavoidable.</p>
+                </div>
+                
+            </div>
+            <div class="c-body-item col-no">no</div>
+            <div class="c-body-item recommended col-no">no</div>
+            <div class="c-body-item col-no">no</div>
+            <div class="c-body-item col-yes">yes</div>
+
+            <div class="c-body-text">
+                <img src="assets/icons/passwords-premium.svg" alt="passwords premium" class="c-body-text-badge">
+                <div class="c-body-text-container">
+                    <p class="c-body-text-h includes">Includes Avast Password Premium</p>
+                    <p class="c-body-text-detail">Get alerted if your passwords are leaked and log in to websites with one
+                        click.</p>
+                </div>
+                <div class="tooltip-control">
+                    <p class="tooltip-content">Tooltip text shouldn't be longer then two lines, but sometimes it's
+                    unavoidable.</p>
+                </div>
+                
+            </div>
+            <div class="c-body-item col-no">no</div>
+            <div class="c-body-item recommended col-no">no</div>
+            <div class="c-body-item col-no">no</div>
+            <div class="c-body-item col-yes">yes</div>
+
+            <div class="c-body-text"><img src="assets/icons/vpn.svg" alt="secureline vpn" class="c-body-text-badge">
+                <div class="c-body-text-container">
+                    <p class="c-body-text-h includes">Includes Avast SecureLine VPN</p>
+                    <p class="c-body-text-detail">Encrypt your internet connection for safe and private browsing.</p>
+                </div>
+                <div class="tooltip-control">
+                    <p class="tooltip-content">Tooltip text shouldn't be longer then two lines, but sometimes it's
+                    unavoidable.</p>
+                </div>
+                
+            </div>
+            <div class="c-body-item col-no">no</div>
+            <div class="c-body-item recommended col-no">no</div>
+            <div class="c-body-item col-no">no</div>
+            <div class="c-body-item col-yes">yes</div>
+
+            <!-- table body end -->
+
+            <!-- table footer start -->
+
+            <div class="c-footer-text text-muted">*Anti-spam is avaible as a separate, free download.</div>
+
+            <div class="c-footer-item">
+                <a href="#" class="btn btn-primary btn-download">FREE</a>
+                <span class="text-size-4">Free forever</span>
+            </div>
+            <div class="c-footer-item recommended">
+                <a href="#" class="btn btn-primary btn-store">BUY NOW</a>
+                <a href="#" class="text-size-4 link text-muted">TRY FOR 30 DAYS</a>
+            </div>
+            <div class="c-footer-item">
+                <a href="#" class="btn btn-primary btn-store">BUY NOW</a>
+                <a href="#" class="text-size-4 link text-muted">TRY FOR 30 DAYS ON PC</a>
+            </div>
+            <div class="c-footer-item">
+                <a href="#" class="btn btn-primary btn-store">BUY NOW</a>
+            </div>
+
+            <!-- table footer end -->
+
+        </div>
+    </main>
+
+    
+    <script type="text/javascript" src="assets/slick/slick.min.js"></script>
+    <script>
+        $('.p-carousel').show();
+        $('.p-carousel').slick({
+            centerMode: true,
+            slidesToShow: 1,
+            autoplay:true,
+            autoplaySpeed: 5000,
+            adaptiveHeight: true,
+            arrows: true,
+            nextArrow: $('.carousel-next'),
+            prevArrow: $('.carousel-prev'),
+            dots: true,
+            responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        centerPadding: '100px',
+                    }
+                },
+                {
+                    breakpoint: 560,
+                    settings: {
+                        centerPadding: '70px',
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        centerPadding: '-20px',
+                    }
+                }
+            ]
+        });
+    </script>
+    <script>
+        // sticky header
+        window.onscroll = function () { getSticky() };
+        window.onresize = function () { getSticky() };
+
+        var table = document.getElementById("comparison_table");
+        var header = document.getElementById("sticky_header");
+
+        
+
+        function getSticky() {
+            var tableStart = table.offsetTop;
+            var tableEnd = tableStart + table.offsetHeight - header.offsetHeight;
+            var headerHeight = 250;
+            if (window.innerWidth < 768) {
+                headerHeight = 400;
+            }
+            if (window.pageYOffset > tableStart && window.pageYOffset < (tableEnd - headerHeight)) {
+                header.style.width = table.offsetWidth + "px";
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+        
+    </script>
+</body>
+
+</html>

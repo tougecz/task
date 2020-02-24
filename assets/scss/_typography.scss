@@ -1,0 +1,61 @@
+.img-fluid {
+    width: 100%;
+}
+.text-muted {
+    color: $color-muted !important;
+}
+.link {
+    text-transform: uppercase;
+    color: $color-text;
+}
+.text-size-1 {
+    font-size: 1.125rem;
+    line-height: 2rem;
+    margin-bottom: 1.5rem;
+}
+.text-size-2 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.text-size-3 {
+    font-size: .88rem;
+    line-height: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.text-size-4 {
+    font-size: .70rem;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+}
+.text-bold {
+    font-weight: bold;
+}
+.text-center {
+    text-align: center;
+}
+h2 {
+    font-size: 2.875rem;
+    line-height: 4rem;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+}
+.btn {
+    transition: ease-in-out .12s;
+    text-decoration: none;
+    border-radius: 3rem;
+    padding: .5rem 1rem;
+    white-space: nowrap;
+    margin-bottom: 1.5rem;
+    display: inline-block;
+}
+@each $name, $color, $color-hover in $colors {
+    .btn-#{$name} {
+        background-color: $color;
+        color: $color-white;
+        box-shadow: 0 5px 8px 4px lighten($color, 44%);
+        &:hover {
+            background-color: $color-hover;
+        }
+    }
+}

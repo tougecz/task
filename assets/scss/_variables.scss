@@ -1,0 +1,36 @@
+$color-avast: #ff7800;
+$color-extra-dark: #0c053e;
+$color-plum: #261c6a;
+$color-purple: #4e22d0;
+$color-violet: #7055ff;
+$color-violet-light: #e2dcff;
+$color-white: #ffffff;
+$color-avast-hover: #ff6900;
+$color-purple-alt: #3a1f9e;
+$color-bg-shadow: #08042b;
+$color-bg: #160e53;
+$color-main: #593aff;
+$color-aqua: #11dfef;
+$color-status-critical: #ff4672;
+$color-status-attention: #fadb4b;
+$color-status-ok: #43ed9c;
+$color-grey-80: #514988;
+$color-grey-60: #7d77a6;
+$color-grey-50: #928db4;
+$color-grey-40: #a8a4c3;
+$color-grey-20: #d4d2e6;
+$color-grey-15: #dfddeb;
+$color-grey-10: #e9e8f3;
+$color-grey-05: #f4f3fa;
+$color-grey-03: #f8f8fc;
+
+$color-text: $color-plum;
+$color-muted: $color-grey-60;
+$color-primary: $color-avast;
+$color-primary-hover: $color-avast-hover;
+$color-secondary: $color-purple;
+$color-secondary-hover: $color-plum;
+
+$colors: ('primary' $color-primary $color-primary-hover, 'secondary' $color-secondary $color-secondary-hover);
+
+$border-recommended: 1px solid $color-primary;
